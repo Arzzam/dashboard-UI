@@ -85,7 +85,7 @@ const Login = () => {
               </div>
               <div className="mb-5">
                 <a
-                  href="#"
+                  href="/"
                   className="font-Lato text-sm font-medium text-[#346BD5] hover:text-[#2f60ba] hover:underline"
                 >
                   Forgot password?
@@ -103,7 +103,7 @@ const Login = () => {
             <p className="text-[#858585]">
               Don't have an account?{" "}
               <a
-                href="#"
+                href="/"
                 className="hover:underline text-[#346BD4]  hover:text-[#2f60ba]"
               >
                 Register here
