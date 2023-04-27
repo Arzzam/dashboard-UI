@@ -19,7 +19,11 @@ const Dash = () => {
           {/* <input type="text" value="search" /> */}
           <SearchBar />
           <NotificationSvg />
-          <img src={Image} alt="profile" className="rounded-2xl" />
+          <img
+            src={Image}
+            alt="profile"
+            className="rounded-2xl h-8 self-center cursor-pointer"
+          />
         </div>
       </div>
       <div className="flex flex-row justify-between gap-4 flex-wrap">

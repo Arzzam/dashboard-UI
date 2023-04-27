@@ -10,16 +10,16 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const email = e.target.email.value;
-    const password = e.target.password.value;
+    // const email = e.target.email.value;
+    // const password = e.target.password.value;
 
-    if (email === "xyz@gmail.com" && password === "12345") {
-      navigate("/dashboard");
-    } else {
-      alert("Invalid Email or Password");
-    }
-
-    console.log(email, password);
+    // if (email === "xyz@gmail.com" && password === "12345") {
+    //   navigate("/dashboard");
+    // } else {
+    //   alert("Invalid Email or Password");
+    // }
+    // console.log(email, password);
+    navigate("/dashboard");
   };
 
   return (

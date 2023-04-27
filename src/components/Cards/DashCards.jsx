@@ -3,7 +3,7 @@ import React from "react";
 const DashCards = (props) => {
   return (
     <div
-      className={`flex flex-col w-40 h-32 py-5 px-6 rounded-3xl mr-5${
+      className={`flex flex-col w-40 h-32 py-5 px-6 rounded-3xl mx-2${
         props.className ? " " + props.className : ""
       }`}
     >
