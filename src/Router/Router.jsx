@@ -6,7 +6,7 @@ import Dashboard from "../Pages/Dashboard";
 const Router = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/">
             <Route index element={<Login />} />
